@@ -1,15 +1,15 @@
-/** @type {import('tailwindcss').Config} */
-
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
+tailwind.config = {
   theme: {
-    extend: {
+      extend: {
+      colors: {
+          clifford: '#da373d',
+      },
       fontFamily: {
-        manrope: ['Manrope', 'san serif'],
-        lexend: ['Lexend Deca', 'sans-serif']
+                  gamaamli: ['Ga Maamli', 'sans-serif'],
+                  poppins: ['Poppins', 'sans-serif'],
 
+          
+              }
       }
-    },
-  },
-  plugins: [],
-}
+  }
+  }
